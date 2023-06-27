@@ -1,0 +1,36 @@
+body{
+    background-image: url("../images/gta_decors4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .logo{
+    margin-top: 75px;
+    display: flex;
+   
+    z-index: 1 ;
+    height: 125px;
+    width: auto;
+  }
+  .sectionServeur {
+    height: 100vh;
+    margin-top: 20%;
+  }
+
+  .formcom {
+  
+    padding: 30px;
+    border-radius: 10px;
+    
+  }
+ 
+  .rating {
+    color: darkorange;
+    margin-bottom: 20px;
+  }
+
+  .rating img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }

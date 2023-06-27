@@ -1,0 +1,64 @@
+/* .hautDePage{
+  height : 100vh;
+  background-image: url("../images/gta_decors_5.png" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+} */
+
+  /* .navimage{
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* Autres propriétés d'arrière-plan personnalisées */
+
+
+/* }
+.Accueil{
+  background-image: url('../images/gta_decors_5.png');
+  background-size: 200VH;
+  z-index: -1;
+} */ 
+*{
+  font-family: "Iceland",cursive;
+ 
+}
+.navbar{
+  height: 90px;
+} 
+.logo{
+  display: flex;
+  position: relative;
+  z-index: 1 ;
+  height: 125px;
+  width: auto;
+  
+}
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.thumbnail.expanded {
+  transform: scale(1.2);
+}
+.nav-item{
+  transform: translateY(-5%);
+}
+
+/* .nav-vector{
+  background-image: url("../images/Vector.png");
+  background-size: 16px;
+} */
+/* .btnTuto{
+  background-image: url("images/Bouton_tuto.png");
+} */

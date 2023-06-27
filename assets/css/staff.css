@@ -1,0 +1,61 @@
+body{
+  background-image: url("../images/paysage1.png");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+  .logo{
+    margin-top: 75px;
+    display: flex;
+   
+    z-index: 1 ;
+    height: 125px;
+    width: auto;
+  }
+  h1{
+
+    margin-top: 12vh;
+    font-size: 51px;
+    text-align: center;
+  }
+  
+.navbar{
+  height: 90px;
+}
+  .navbar1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 70px;
+    border-radius: 35px;
+    border-color: palevioletred;
+  }
+
+  .nav-link:first-child {
+    border-radius: 35px;
+    border-radius: 35px 0 0 35px;
+    border-color: palevioletred;
+  }
+
+  .nav-link:last-child {
+    border-radius: 0 35px 35px 0;
+    border-color: palevioletred;
+  }
+
+#commentaires {
+  height: 100vh;
+ 
+}
+
+.commentaire{
+  position :relative;
+  top: 20vh;
+  opacity: 0.7;
+  margin: 0 15% 0 5% ;
+  height: 100px;
+  border-radius: 50%;
+  
+
+
+}

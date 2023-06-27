@@ -1,0 +1,62 @@
+.logo{
+  margin-top: 75px;
+  display: flex;
+  z-index: 1 ;
+  height: 125px;
+  width: auto;
+}
+.hautDePage {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  background-image: url("../images/gta_decors4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center; /* Aligne les éléments verticalement au centre */
+}
+
+.hero1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  transform: translateY(10%);
+}
+
+.hero2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  transform: translateY(-20%);
+}
+
+.fs-1 {
+  text-align: center;
+  width: 100%;
+  margin-top: 75px;
+  z-index: 1;
+}
+
+
+.textVip{
+  
+  color: antiquewhite;
+  transform: translateY(-15%);
+}
+h1{
+  transform: translateY(-28%);
+  color: cornsilk;
+}
+h2{
+  color: deeppink;
+}
+h3{
+  color: deeppink;
+}

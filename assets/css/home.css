@@ -1,0 +1,179 @@
+.hautDePage{
+  
+  height: 100vh;
+  background-image: url("../images/gta_decors_5.png" );
+  background-repeat: no-repeat;
+  background-size:100%;
+  
+}
+
+r
+h1{
+  margin-top: 20vh;
+  font-size: 51px;
+}
+.basDePage{
+ 
+  height: 100vh;
+  background-image:url("../images/gta_decors2_2.png" ); ;
+  /* background-image: url("../images/gta_decors_5.png" );
+  transform: rotate(180deg) scaleX(-1); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+/* .reverse-text{
+  transform: rotate(180deg) scaleX(-1);
+} */
+.home {
+
+    width: 60%;
+    color:azure;
+ margin-top: 40%;
+    
+   
+    /* padding-top : 5%; */
+    /* background-image: url('../images/acc2.png');
+    background-size: 50%; */
+    /* z-index : +1; */
+  }
+
+
+  .titre {
+
+
+    color: rgb(197, 197, 197);
+    text-align: center;
+    
+  }
+  p {
+    
+
+    padding: 0 2em;
+    font-size: large;
+    text-align: center;
+
+  }
+
+
+
+.encadrement{
+    top: auto;
+
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+/* .fond {
+  margin-bottom: 0%;
+  height:100vh;
+  background-image: url('../images/gta_decors_5.png');
+  transform: rotate(180deg) scaleX(-1);
+} */
+.formcom{
+
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px
+
+}
+#commentaires {
+  height: 100vh;
+ 
+}
+
+.commentaire{
+  position :relative;
+  top: 0;
+  width: 30%;
+  border: 2px solid gray;
+  background: gainsboro;
+  opacity: 0.7;
+  margin: 0 15% 0 5% ;
+  height: 100px;
+
+  
+
+}
+
+#commentaires-liste  {
+  display: flex;
+  border: 2px solid gray;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 20px;
+}
+h2{
+  font-size: 12px;
+}
+#commentaires-liste .commentaire:nth-child(even) {
+ margin-top: 100px;
+ 
+ border-radius: 29px 29px 29px 0
+
+}
+
+#commentaires-liste .commentaire:nth-child(odd) {
+  border-radius: 29px 29px 0 29px;
+ 
+
+}
+
+/* #commentaire-formulaire {*/
+  /* Styles pour le formulaire de commentaire 
+  width: 50%;
+
+} */
+
+.mathieu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.note{
+  color: rgb(255, 0, 247);
+}
+.contenu{
+  color:black;
+}
+
+
+.hautDePage {
+  position: relative;
+}
+
+
+.basDePage {
+  position: relative;
+}
+
+.table-responsive-xl {
+  position: absolute;
+  bottom: -120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.thumbnail.expanded {
+  transform: scale(1.2);
+}
+.carousel{
+height : 100vh;
+}
