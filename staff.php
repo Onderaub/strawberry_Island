@@ -7,22 +7,6 @@ require_once 'inc/header.inc.php';
 
 <h1 class="text-center">Equipe</h1>
 <section class="navEquipe">
-  <!-- <nav class="navbar1 navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </div>
-        </div>
-      </div>
-    </nav> -->
   <div class="border rounded-pill bg-white row w-50 mx-auto text-center ">
     <div class="team-category border-end col-2 border-4 p-3">Admin </div>
     <div class="team-category border-end col-2 border-4 p-3">Les Dev' </div>
@@ -44,5 +28,5 @@ require_once 'inc/header.inc.php';
     </form>
 <!-- A mettre dans la partie admin <button type="submit">Ajouter le bénévole</button> -->
 </div>
-
+</section>
 <?php require_once 'inc/footer.inc.php'; ?>

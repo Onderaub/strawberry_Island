@@ -49,6 +49,4 @@ require_once 'inc/header.inc.php'; ?>
       });
     });
     </script>
-</body>
-
-</html>
+<?php require_once 'inc/footer.inc.php';?>

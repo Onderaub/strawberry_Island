@@ -3,13 +3,16 @@ require_once 'inc/header.inc.php'; ?>
 <link rel="stylesheet" href="assets/css/vip.css" />
 <div class="hautDePage">
 
-  <div class="hero1 "><img src="assets/images/Group5.png" alt="jeune héros de GTA 5 nous regarde bras croisés avec un pistolet dans la main droite profile trois quart, plan américain encadré d'un liserai rouge"width="200">
+  <div class="hero1 "><img src="assets/images/Group5.png" alt="jeune héros de GTA 5 nous regarde bras croisés avec un pistolet dans la main droite profile trois quart, plan américain encadré d'un liserai rouge" width="200">
   </div>
   <div class=" textVip fs-1 column " w-30>
     <h1>Devenir Vip</h1>
-    <h2>VIP</h2><div class="fs-3"> Vip en devenant vip vous participer a l'essor economique de notre ville et permettez ainsi au citoyen vivre de leur meilleures vies</div>
+    <h2>VIP</h2>
+    <div class="fs-3"> Vip en devenant vip vous participer a l'essor economique de notre ville et permettez ainsi au citoyen vivre de leur meilleures vies</div>
 
-  <h3> VIP+</h3><div class="fs-3">Les Vip+ sont des citoyens ayant pour but de réaliser des projet pour les générations avenir à travers la philantropie</div></div>
+    <h3> VIP+</h3>
+    <div class="fs-3">Les Vip+ sont des citoyens ayant pour but de réaliser des projet pour les générations avenir à travers la philantropie</div>
+  </div>
   <div class="hero2"><img src="assets/images/Group6.png" alt="héros plus agée nous regarde en costume noir avec une fusil d'assaut vue en contre plongé, une percepective sur le canon encadré d'un liserai rouge " width="250">
   </div>
 </div>
@@ -52,3 +55,4 @@ require_once 'inc/header.inc.php'; ?>
     </tbody>
   </table>
 </div> -->
+<?php require_once 'inc/footer.inc.php';?>

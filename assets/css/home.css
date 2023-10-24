@@ -1,25 +1,56 @@
+body{
+  height: 200vh
+}
 .hautDePage{
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   background-image: url("../images/gta_decors_5.png" );
   background-repeat: no-repeat;
   background-size:100%;
+  z-index: 1;
   
 }
+.navbar{
+  height: 90px;
+}
+.logo{
+  margin-top: 75px;
+  display: flex;
+  z-index: 1 ;
+  height: 125px;
+  width: auto;
+}
+.carousel{
+  height : 20vh;
+  
+  }
 
-r
+#carouselTextHome{
+  margin: auto;
+  height : 60 vh;
+}
+.description {
+  height : 60 vh;
+  transform: translateY(80px);
+}
 h1{
-  margin-top: 20vh;
-  font-size: 51px;
+    font-size: 51px;
 }
 .basDePage{
  
-  height: 100vh;
-  background-image:url("../images/gta_decors2_2.png" ); ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:url("../images/gta_decors2_2.png" ); 
+  
+  justify-content: center;
   /* background-image: url("../images/gta_decors_5.png" );
   transform: rotate(180deg) scaleX(-1); */
   background-repeat: no-repeat;
   background-size: 100%;
+  
   
 }
 /* .reverse-text{
@@ -28,7 +59,7 @@ h1{
 .home {
 
     width: 60%;
-    color:azure;
+    color:rgb(4, 5, 5);
  margin-top: 40%;
     
    
@@ -42,7 +73,7 @@ h1{
   .titre {
 
 
-    color: rgb(197, 197, 197);
+    color: rgb(10, 10, 10);
     text-align: center;
     
   }
@@ -55,14 +86,12 @@ h1{
 
   }
 
-
-
-.encadrement{
+/* .encadrement{
     top: auto;
 
     border-bottom: 2px solid black;
     padding-bottom: 10px;
-}
+} */
 /* .fond {
   margin-bottom: 0%;
   height:100vh;
@@ -79,24 +108,32 @@ h1{
 }
 #commentaires {
   height: 100vh;
+  margin-top: 20vh;
  
 }
 
 .commentaire{
   position :relative;
-  top: 0;
+  margin-top: 10%;
   width: 30%;
   border: 2px solid gray;
   background: gainsboro;
   opacity: 0.7;
   margin: 0 15% 0 5% ;
   height: 100px;
-
-  
-
 }
 
+
+.logo{
+  display: flex;
+  position: relative;
+  z-index: 1 ;
+  height: 125px;
+  width: auto;
+  
+}
 #commentaires-liste  {
+  margin-top: 10%;
   display: flex;
   border: 2px solid gray;
   justify-content: center;
@@ -139,14 +176,7 @@ h2{
 }
 
 
-.hautDePage {
-  position: relative;
-}
 
-
-.basDePage {
-  position: relative;
-}
 
 .table-responsive-xl {
   position: absolute;
@@ -173,7 +203,4 @@ h2{
 
 .thumbnail.expanded {
   transform: scale(1.2);
-}
-.carousel{
-height : 100vh;
 }

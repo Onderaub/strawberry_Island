@@ -6,7 +6,9 @@
     top: center;
     left: center ;
   }
-  
+  .navbar{
+    height: 90px;
+  }
   .carousel1-inner img {
   
    width: 100%; 
@@ -21,6 +23,7 @@
     width: auto;
   }
   body{
+    height: 90%;
     background-image: url("../images/gta_decors2_2.png");
     background-size: cover;
     background-repeat: no-repeat;

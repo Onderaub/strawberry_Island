@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<?php     require_once '../config/function.php';
+require_once '../inc/backheader.inc.php';?>
 <head>
 
     <meta charset="utf-8">
@@ -8,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Les moissons admin</title>
+    <title>Star'admin</title>
 
 
     <!-- Custom fonts for this template-->
     <link href="../assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/lux/bootstrap.min.css" integrity="sha512-+TCHrZDlJaieLxYGAxpR5QgMae/jFXNkrc6sxxYsIVuo/28nknKtf9Qv+J2PqqPXj0vtZo9AKW/SMWXe8i/o6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -36,11 +36,11 @@
     >
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?=  BASE_PATH.'back/'; ?>">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?=  BASE_PATH.'/'; ?>">
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">Les Moiss' Admin </sup></div>
+            <div class="sidebar-brand-text mx-3">Star'Admin </sup></div>
         </a>
 
         <!-- Divider -->
@@ -56,62 +56,57 @@
         <div class="sidebar-heading">
             gestion
         </div>
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-               aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fas fa-fw fa-wrench"></i>
-                <span>Gestion pastille</span>
-            </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                 data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="dropdown-item" href="">Gestion Commande</a>
-                </div>
-            </div>
-        </li>
+        
 
         <hr class="sidebar-divider d-none d-md-block">
 
         <li class="nav-item">
-            <a class="nav-link collapsed" href="" >
+            <a class="nav-link collapsed" href="<?= BASE_PATH.'back/media_type.php';?>" >
                 <i class="fas fa-fw fa-wrench"></i>
-                <span>Gestion caroussel</span>
+                <span>Gestion Médias type</span>
+            </a>
+        </li>
+
+        <hr class="sidebar-divider">
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="<?= BASE_PATH.'back/typeChoice.php';?>" >
+                <i class="fas fa-fw fa-wrench"></i>
+                <span>Gestion Médias</span>
+            </a>
+        </li>
+
+        <hr class="sidebar-divider">
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="<?= BASE_PATH.'back/page.php';?>" >
+                <i class="fas fa-fw fa-wrench"></i>
+                <span>Gestion page</span>
             </a>
         </li>
 
 
         <hr class="sidebar-divider">
         <li class="nav-item">
-            <a class="nav-link collapsed" href="" >
+            <a class="nav-link collapsed" href="<?= BASE_PATH.'back/content.php';?>" >
                 <i class="fas fa-fw fa-wrench"></i>
-                <span>Gestion carte resto</span>
+                <span>Gestion Content</span>
             </a>
         </li>
 
 
         <hr class="sidebar-divider">
         <li class="nav-item">
-            <a class="nav-link collapsed" href="" >
+            <a class="nav-link collapsed" href="<?= BASE_PATH.'back/comment.php';?>" >
                 <i class="fas fa-fw fa-wrench"></i>
-                <span>Gestion formule</span>
+                <span>Gestion Comment</span>
             </a>
         </li>
 
 
         <hr class="sidebar-divider">
         <li class="nav-item">
-            <a class="nav-link collapsed" href="" >
+            <a class="nav-link collapsed" href="<?= BASE_PATH.'back/eventback.php';?>" >
                 <i class="fas fa-fw fa-wrench"></i>
-                <span>Gestion bar / cave</span>
-            </a>
-        </li>
-
-
-        <hr class="sidebar-divider">
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="" >
-                <i class="fas fa-fw fa-wrench"></i>
-                <span>Gestion navigation</span>
+                <span>Gestion Event</span>
             </a>
         </li>
 
@@ -139,27 +134,7 @@
 
 
 
-        <!-- Nav Item - Pages Collapse Menu -->
-        <li class="nav-item ">
-            <a class="nav-link collapsed" href="" >
-                <i class="fas fa-fw fa-folder"></i>
-                <span>Gestion abonnés</span>
-            </a>
-<!--            <div id="collapsePages" class="collapse show" aria-labelledby="headingPages"-->
-<!--                 data-parent="#accordionSidebar">-->
-<!--                <div class="bg-white py-2 collapse-inner rounded">-->
-<!--                    <h6 class="collapse-header">Login Screens:</h6>-->
-<!--                    <a class="collapse-item" href="{{path('app_admin_crud_newsletter_new')}}">Gestion Newsletter</a>-->
-<!--                    <a class="collapse-item" href="{{path('app_admin_crud_membre')}}">Gestion Membre</a>-->
-<!--                    <a class="collapse-item" href="{{path('app_admin_crud_avis')}}">Gestion Avis</a>-->
-<!--                    <a class="collapse-item" href="{{path('app_admin_crud_contact')}}">Gestion Contact</a>-->
-<!--                    <div class="collapse-divider"></div>-->
-<!--                    <h6 class="collapse-header">autres:</h6>-->
-<!--                    <a class="collapse-item active" href="{{path('admin_crud_slider_new')}}">Gestion slider</a>-->
-<!--                </div>-->
-<!--            </div>-->
-        </li>
-
+     
 
 
         <!-- Divider -->
@@ -215,18 +190,6 @@
 
             </div>
 
-
-            <div class="container-fluid">
-
-                <?php if (isset($_SESSION['messages'])) :  ?>
-
-                    <?php foreach ($_SESSION['messages'] as $type => $messages) : ?>
-                        <?php foreach ($messages as $message) : ?>
-                            <div class=" w-25 rounded  text-center ml-5  alert alert-<?= $type ?>"><h3><?= $message ?></h3></div>
-                        <?php endforeach; ?>
-                    <?php endforeach; ?>
-                    <?php unset($_SESSION['messages']); ?>
-                <?php endif; ?>
                 <!-- Page Heading -->
 
 

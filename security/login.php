@@ -56,7 +56,7 @@ if (empty($_POST['email'])) {
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-        <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+        <input name="password" type="password" class="form-control" id="Password1">
         <small class="text-danger"><?= $password  ?? ""; ?></small>
     </div>
 

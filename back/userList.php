@@ -7,7 +7,6 @@ if (!admin()){
 }
 
         require_once '../inc/header.inc.php';
-
         $users=execute("SELECT * FROM user")->fetchAll(PDO::FETCH_ASSOC);
        // debug($users);
 

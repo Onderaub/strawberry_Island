@@ -1,0 +1,39 @@
+body {
+
+  height: 100vh;
+  width: auto;
+  background-image: url("../images/prison1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center; /* Aligne les éléments verticalement au centre */
+  color: aliceblue;
+}
+.navbar{
+  height: 90px;
+}
+.logo{
+  margin-top: 75px;
+  display: flex;
+  z-index: 1 ;
+  height: 50%;
+  width: auto;
+}
+
+.imgEvent{
+ 
+  margin-left: 5%;
+  width : 120% ;
+  margin-top :8%;
+  height : auto;
+}
+.textevent{
+  margin-right: 25%;
+  margin-top: 20%;
+  font-size: larger;
+  z-index: 1;
+  height: auto ;
+  
+}
+h1{
+  color: aqua;
+}

@@ -5,7 +5,11 @@
   background-size: cover;
   
 } */
-
+.nav{
+  background-color: darkslateblue;
+  height: 10vh;
+  align-content: baseline;
+}
   /* .navimage{
     
     background-repeat: no-repeat;
@@ -24,15 +28,15 @@
  
 }
 .navbar{
-  height: 90px;
-} 
+  background-color: aqua;
+}
 .logo{
+  margin-top: 75px;
   display: flex;
-  position: relative;
+ 
   z-index: 1 ;
   height: 125px;
   width: auto;
-  
 }
 .thumbnails {
   display: flex;
@@ -54,11 +58,36 @@
 .nav-item{
   transform: translateY(-5%);
 }
+footer {
+  background-color: violet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left {
+  flex: 1;
+  text-align: left;
+}
+
+.socialBar {
+  flex: 1;
+  text-align: center;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+.custom-z-index {
+  z-index: 1;
+}
 
 /* .nav-vector{
   background-image: url("../images/Vector.png");
   background-size: 16px;
-} */
+}  */
 /* .btnTuto{
   background-image: url("images/Bouton_tuto.png");
-} */
+}

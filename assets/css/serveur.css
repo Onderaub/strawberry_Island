@@ -3,6 +3,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .navbar{
+    height: 90px;
+  }
 
   .logo{
     margin-top: 75px;

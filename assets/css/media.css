@@ -1,0 +1,19 @@
+.visu_media{
+    display: flex;
+    
+    width:75%;
+    
+}
+
+.media_type{
+    text-align: center;
+   
+    width : 33%;
+
+}
+.medias_infos{
+display: flex;
+  width: auto;
+  align-items: center;
+    
+}

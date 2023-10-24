@@ -5,6 +5,7 @@
   height: 125px;
   width: auto;
 }
+
 .hautDePage {
   display: flex;
   height: 100vh;
@@ -59,4 +60,7 @@ h2{
 }
 h3{
   color: deeppink;
+}
+.navbar{
+  height: 90px;
 }
